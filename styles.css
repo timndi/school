@@ -1,0 +1,996 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+button{
+  margin: 3% auto;
+}
+
+/* section */
+.colored-section {
+  background-color: #e61245;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+/* navbar section */
+.navbar {}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* home section */
+#home {
+  padding: 7% 14%;
+  margin-bottom: 5%;
+
+}
+
+div.row {
+  margin: 0;
+}
+
+#home img {
+  width: 100%;
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: .5; */
+}
+
+.bargeTop {
+  width: 140px;
+  float: left;
+}
+
+.galaxyHeading {
+  float: left;
+  font-size: 2rem;
+  font-family: sans-serif, arial;
+  width: 70%;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: bold;
+  color: #770b03;
+  padding-top: 20px;
+}
+
+/*
+div.col-9-sm {
+  width: 1000px;
+} */
+.fluid-container {
+  padding: 1% 15% 0;
+}
+
+/* About  */
+#about {
+  padding: 7% 14%;
+}
+
+.circle-about {
+  width: 250px;
+  height: 250px;
+  background-image: url("images/school4Compressed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+  float: left;
+  shape-outside: circle();
+  margin: 50px 40px 70px 30px;
+}
+
+#about h2 {
+  padding-bottom: 2%;
+  color: yellow;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-message {
+  width: 90%;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.weicome {
+  padding-top: 30px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* image scroll round  */
+#programs {
+  padding: 7% 14%;
+  background-color: #061727;
+  margin-top: 3%;
+}
+
+#programs h1, h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: yellow;
+  padding-bottom: 10px;
+}
+
+/* swiper  */
+.scroll-2 {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 280px;
+  background-color: #061727;
+  color: #fff;
+}
+
+.swiper-slide .imgBx {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+  width: 90%;
+}
+
+.swiper-slide .details {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.swiper-slide .details {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.swiper-slide .details span {
+  font-size: 16px;
+  color: yellow;
+  padding-left: 30%;
+}
+
+.pic1 {
+  width: 50%;
+  height: 300px;
+}
+
+.slider-h3 {
+  width: 70%;
+  font-size: 0.8rem;
+  padding: 10% 0 0 10%;
+}
+
+.imgBx {
+  padding-top: 15px;
+}
+
+/* code of conduct  */
+#codeOfConduct {
+  padding: 7% 14%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#codeOfConduct h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: sans-serif. arial;
+  padding-bottom: 1%;
+  color: #770b03;
+}
+
+#codeOfConduct p {
+  font-size: 1rem;
+  width: 55%;
+  color: #fff;
+  background-color: #e61245;
+  padding: 2%;
+  border-radius: 0 0 5% 5%;
+  margin-top: 0.6%;
+  margin-left: 22.5%;
+}
+
+#codeOfConduct img {
+  height: 40%;
+  width: 55%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/* Teachers  */
+#teachers {
+  /* background-color: #061727; */
+  border-radius: 10px;
+  padding: 7% 14%;
+}
+
+#teachers div.row {
+  margin: 0;
+}
+
+#teachers h1 {
+  font-weight: bold;
+  font-family: sans-serif. arial;
+  color: #061727;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+#teachers p {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+}
+
+#teachers img {
+  width: 70%;
+  height: 200px;
+  padding: 40px;
+  border-radius: 50%;
+}
+
+/* parents as Partners  */
+#parentsAsPartners {
+  padding: 7% 14%;
+  border-radius: 8px;
+}
+
+#parentsAsPartners h1 {
+  font-size: 2.5rem;
+  font-family: sans-serif, arial;
+  padding: 2% 0;
+  width: 55%;
+  margin-left: 22.5%;
+  background-color: #061727;
+  color: #fff;
+}
+
+#parentsAsPartners p {
+  font-size: 1.1rem;
+  background-color: #e2c26e;
+  width: 55%;
+  padding: 2%;
+  border-radius: 0 0 5% 5%;
+  margin-top: 4px;
+  margin-left: 22.5%;
+}
+
+#parentsAsPartners img {
+  height: 40%;
+  width: 55%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/* Admission  */
+#admissions {
+  padding: 7% 14%;
+  background-color: #e61245;
+  border-radius: 10px;
+}
+
+#admissions p {
+  font-size: 1.2rem;
+  width: 80%;
+  line-height: 1.2;
+  color: #fff;
+  padding-left: 30%;
+}
+
+#admissions h1 {
+  color: yellow;
+  margin-top: 10px;
+  font-size: 2rem;
+  width: 100%;
+  padding: 4%;
+}
+
+.admission-circle {
+  width: 350px;
+  height: 300px;
+  background-image: url("images/school5Compressed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20%;
+  float: left;
+  shape-outside: circle();
+  margin: 60px 50px 50px 0;
+}
+
+/* primary  */
+#primary {
+  padding: 7% 14%;
+  background-color: #e61245;
+  margin-top: 3%;
+}
+
+#primary img {
+  width: 55%;
+  height: 250px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+}
+
+#primary h1 {
+  font-size: 1.7rem;
+  padding: 3%;
+  color: yellow;
+}
+
+#primary p {
+  font-size: 1.1rem;
+  color: #111;
+  width: 55%;
+  background-color: #fff;
+  padding: 1% 1% 0;
+  border-radius: 10px;
+  margin-left: 22.5%;
+}
+
+/* nursery  */
+#nursery {
+  padding: 7% 14%;
+}
+
+#nursery img {
+  width: 50%;
+  height: 30%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+#nursery h1 {
+  background-color: #061727;
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 15px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#nursery span {
+  font-weight: bold;
+  color: yellow;
+}
+
+#nursery p {
+  font-size: 1.1rem;
+  background-color: #e61245;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  width: 50%;
+  padding: 2%;
+  margin-left: 25%;
+}
+
+/* testimonial  */
+#testimonials {
+  padding: 7% 14%;
+  background-color: #061727;
+}
+
+.testimonial-h2 {
+  color: yellow;
+  padding: 4%;
+}
+
+#testimonials img {
+  border-radius: 50%;
+  width: 30%;
+  height: 280px;
+  padding: 2%;
+}
+
+#testimonials h4 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  width: 75%;
+  color: #fff;
+  padding-left: 30%;
+  word-spacing: 1px;
+}
+
+/* Result  */
+#result {
+  padding: 7% 14%;
+  margin: 3% 0;
+  border-radius: 10px;
+  color: #fff;
+  padding-top: 3%;
+}
+#result div.col-md-6{
+  background-color: #061727;
+  padding: 5% 2%;
+}
+#result div.col-md-6 div.container{
+  padding: 0;
+}
+#result h1 {
+  font-size: 2rem;
+  color: yellow;
+}
+
+#result p {
+  font-size: 1.1rem;
+}
+
+.resultBody {
+  background-color: #fff;
+  color: #333;
+}
+
+input#pin {
+  padding: 0;
+  border-radius: 5px;
+  margin-bottom: 4%;
+  width: auto;
+}
+
+table img {
+  height: 200px;
+  margin: 20px 70px 0 100px;
+}
+
+/* facilities  */
+#facilities {
+  background-color: #c5d0dc;
+  border-radius: 10px;
+  padding: 7% 14%;
+}
+
+#facilities h1 {
+  font-size: 2rem;
+  padding-bottom: 6%;
+  font-family: sans-serif, arial;
+  color: #061727;
+}
+
+#facilities p {
+  font-size: 1.1rem;
+  font-family: sans-serif, arial;
+}
+
+#facilities img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+
+#events h1 {
+  background-color: #061727;
+  padding: 3%;
+  font-size: 2.5rem;
+  color: yellow;
+  width: 100%;
+}
+
+.bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+/* Newsletter section */
+
+
+#newsletter {
+  margin: 5% 0;
+  color: #fff;
+}
+#newsletter div.center-col{
+  background-color: #e61245;
+  padding: 5%;
+}
+
+#newsletter img{
+  border-radius: 50%;
+}
+
+#newsletter.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+
+}
+#newsletter.form-signin .checkbox {
+  font-weight: 400;
+}
+#newsletter.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+#newsletter.form-signin .form-control:focus {
+  z-index: 2;
+}
+#newsletter.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#newsletter.middle{
+  border-radius: 0;
+  margin-bottom: -1px;
+
+}
+#newsletter.bottom{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* success section */
+
+.jumbotron{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* contact  */
+#contact div.form{
+  background-color: #c5d0dc;
+  color: #111;
+  padding: 5%;
+  margin: 3% 0;
+}
+#contact div.form h1{
+  color: #061727;
+
+}
+#contact div.col-md-5{
+  background-color: #e61245;
+  color: #fff;
+  padding: 5%;
+  margin: 3%;
+
+}
+
+#contact {
+  padding:0;
+
+  border-radius: 10px;
+  padding-top: 3%;
+  margin-bottom: 3%;
+}
+
+#contact div.col-md-5 p{
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.3;
+  padding: 0;
+  margin: 0;
+}
+
+
+#contact h1 {
+  color: yellow;
+  font-size: 3rem;
+  padding-bottom: 15px;
+  font-family: sans-serif, arial;
+}
+
+.contact-circle {
+  width: 80px;
+  height: 80px;
+  background-image: url("images/book1Depressed.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  float: left;
+  shape-outside: circle();
+  margin: 5px 0 10px 0;
+}
+
+.contact-email {
+  color: yellow;
+}
+
+
+/* Footer  */
+#footer {
+  padding: 7% 14%;
+  background-color: #061727;
+  padding-top: 4%;
+  color: #fff;
+}
+
+#footer p {
+  width: 100%;
+  padding-left: 7%;
+}
+
+#footer h6 {
+  width: 100%;
+  font-size: 1rem;
+}
+
+/*  bottom Menu */
+div#bottomMenu {
+  background-color: #061727;
+  padding: 7% 14%;
+  padding-top: 5%;
+  text-align: left;
+  margin-bottom: 3%;
+}
+
+div#bottomMenu h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+div#bottomMenu a {
+  color: #040d44;
+  color: #a94d03;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+div.back-menu-colored {
+  text-align: center;
+}
+
+.back-menu-colored {
+  color: green;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}
+@media(max-width:1050px) {
+#newsletter div.center-col{
+  width: 100%;
+}
+}
+
+/* query section */
+@media(max-width:950px) {
+  #title {
+    text-align: left;
+  }
+
+  /* About section */
+  #about{
+    padding: 5% 2% 2%;
+    margin-top: 0;
+  }
+  #about h2 {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  .circle-about {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-message {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .welcome{
+    font-size: 1rem;
+  }
+
+  /* home section */
+  #home img {
+    height: 45vh;
+  }
+
+  .bargeTop {
+    width: 120px;
+  }
+
+  .galaxyHeading {
+    font-size: 1.5rem;
+    width: 50%;
+    padding: 10px 0 0;
+  }
+  /* program section */
+  #programs{
+    margin: 10% 0;
+  }
+
+  #programs h1, h2 {
+    font-size: 1.5rem;
+  }
+  .swiper-slide{
+    height: 220px;
+    width: 160px;
+  }
+
+  .swiper-slide .imgBx {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+  }
+
+  .swiper-slide .imgBx img {
+    width: 90%;
+  }
+
+  .swiper-slide .details {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  .swiper-slide .details h3{
+    font-size: 0.7rem;
+  }
+
+  /* * code of conduct  */
+  #codeOfConduct{
+    text-align: center;
+  }
+  #codeOfConduct h1 {
+    font-size: 1.5rem;
+  }
+
+  #codeOfConduct p {
+    width: 100%;
+margin: 0;
+ }
+
+  #codeOfConduct img {
+    height: 30%;
+    width: 100%;
+  }
+
+  /* Teachers  */
+  #teachers{
+    margin: 10% 0;
+  }
+  #teachers h1 {
+    font-size: 1.7rem;
+  }
+
+  #teachers img {
+    height: 170px;
+    width: 170px;
+    padding: 20px;
+  }
+
+  /* parents as Partners  */
+  #parentsAsPartners {
+    text-align: center;
+  }
+
+  #parentsAsPartners h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #parentsAsPartners p {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  #parentsAsPartners img {
+    height: 25%;
+    width: 100%;
+  }
+
+  /* Admission  */
+  #admissions {
+    padding: 10px 0 0 0;
+    margin: 10% 0;
+  }
+
+  #admissions p {
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 2% 2% 2% 0;
+  }
+
+  #admissions h1 {
+    font-size: 1.3rem;
+  }
+
+  .admission-circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* primary  */
+  #primary {
+    text-align: center;
+  }
+
+  #primary img {
+    width: 100%;
+    height: 200px;
+  }
+
+  #primary h1 {
+    font-size: 1.5rem;
+    padding: 3%;
+    color: yellow;
+  }
+
+  #primary p {
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* nursery  */
+  #nursery {
+    padding: 0 30% 0 0;
+    margin: 10% 0;
+    text-align: center;
+  }
+
+  #nursery img {
+    width: 100%;
+    height: 20%;
+    margin-left: 25%;
+  }
+
+  #nursery h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 0;
+  }
+
+  #nursery p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  /* testimonial  */
+  #testimonials img {
+    width: 40%;
+    height: 130px;
+  }
+
+  #testimonials h4 {
+    padding: 0 0 0 10%;
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  /* Result  */
+  #result {
+    margin: 10% 0;
+  }
+
+  #result h1 {
+    font-size: 1.6rem;
+    padding-top: 5%;
+  }
+
+  #result p {
+    font-size: 1rem;
+  }
+
+  /* facilities  */
+  #facilities{
+    margin-top: 10%;
+  }
+  #facilities h1 {
+    font-size: 1.7rem;
+  }
+
+  #facilities p {
+    font-size: 1rem;
+  }
+
+  #facilities img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Events  */
+  #events h1 {
+    padding: 1%;
+    font-size: 1.5rem;
+  }
+
+  /* newsletter section */
+  #newsletter div.center-col{
+    width: 100%;
+  }
+  /* contact  */
+  #contact {
+    padding-top: 5%;
+  }
+  #contact div.container{
+    padding-left: 0;
+  }
+
+  #contact p {
+    font-size: 0.9rem;
+    padding: 1%;
+  }
+
+  #contact h1 {
+    font-size: 1.7rem;
+  }
+
+  .contact-circle {
+    width: 100px;
+    height: 90px;
+    margin: 10px 30px 4px 0;
+  }
+
+  /* Footer  */
+  #footer p {
+    width: 100%;
+    padding-left: 7%;
+  }
+
+  #footer h6 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  /*  bottom Menu */
+  div#bottomMenu{
+    margin: 10% 0;
+  }
+  div#bottomMenu h3 {
+    font-size: 1.1rem;
+  }
+
+  div.back-menu-colored {
+    text-align: center;
+  }
+
+  .back-menu-colored {
+    color: green;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+/* for Newsletter */
+@media(min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+
+  }
